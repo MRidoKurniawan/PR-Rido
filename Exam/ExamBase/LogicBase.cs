@@ -10,6 +10,7 @@ namespace ExamBase
     {
         public int jmlhBaris { get; set; }
         public int jmlhKolom { get; set; }
+        public int jmlhBangun { get; set; }
         public string[,] Array2D { get; set; }
     }
 

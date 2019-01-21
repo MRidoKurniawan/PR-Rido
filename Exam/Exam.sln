@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamHari03", "ExamHari03\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamBase", "ExamBase\ExamBase.csproj", "{B75D8506-4F07-4AF7-8FA3-84A6BA3C6286}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamHari04", "ExamHari04\ExamHari04.csproj", "{A9FD3957-1C88-4A66-9B2A-6F515D204419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamHari05", "ExamHari05\ExamHari05.csproj", "{A345B01B-3E09-4901-8A4C-1E0F6C82FEF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{B75D8506-4F07-4AF7-8FA3-84A6BA3C6286}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B75D8506-4F07-4AF7-8FA3-84A6BA3C6286}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B75D8506-4F07-4AF7-8FA3-84A6BA3C6286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9FD3957-1C88-4A66-9B2A-6F515D204419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FD3957-1C88-4A66-9B2A-6F515D204419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FD3957-1C88-4A66-9B2A-6F515D204419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FD3957-1C88-4A66-9B2A-6F515D204419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A345B01B-3E09-4901-8A4C-1E0F6C82FEF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A345B01B-3E09-4901-8A4C-1E0F6C82FEF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A345B01B-3E09-4901-8A4C-1E0F6C82FEF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A345B01B-3E09-4901-8A4C-1E0F6C82FEF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

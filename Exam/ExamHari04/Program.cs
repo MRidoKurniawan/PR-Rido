@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExamHari03
+namespace ExamHari04
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("\t\t\t-------Exam Hari 03--------\n\n");
+            Console.Write("\t\t-------------- EXAM HARI 04 ----------------\n\n\n");
 
             string jawab = "y";
-            while (jawab.ToLower() == "y")
+            do
             {
                 Console.Write("Masukkan Nilai n : ");
                 int n = int.Parse(Console.ReadLine());
 
-                Console.Write("Masukan No Soal : ");
+                Console.Write("Masukan Nomer Soal : ");
                 int soal = int.Parse(Console.ReadLine());
 
                 switch (soal)
@@ -56,26 +56,27 @@ namespace ExamHari03
                         break;
 
                     case 9:
-                        Soal09 s9 = new Soal09(n);
-                        break;
-
-                    case 11:
-                        Soal10 s10 = new Soal10(n);
+                        Console.Write("\nMasukan jumlah bangun yang ingin di cetak : ");
+                        int bgn = int.Parse(Console.ReadLine());
+                        Soal09 s9 = new Soal09(n, bgn);
                         break;
 
                     case 10:
-                        SoalPR s11 = new SoalPR(n);
+                        Console.Write("\nMasukan jumlah bangun yang ingin di cetak : ");
+                        bgn = int.Parse(Console.ReadLine());
+                        Soal10 s10 = new Soal10(n, bgn);
+                        break;
                         break;
 
                     default:
-                        Console.Write("Soal Tidak Ada");
+                        Console.Write("Nomer Soal Tidak ditemukan");
                         break;
                 }
 
                 //ganjelan
-                Console.Write("\nApakah Mau Berlanjut ? [Y/T]");
+                Console.Write("\n\nApakah Ingin Mengulang Lagi ? [Y/T]");
                 jawab = Console.ReadLine();
-            }
+            } while (jawab.ToLower() == "y");
         }
     }
 }
