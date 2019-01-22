@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExamHari05
+namespace ExamReview45
 {
     class Program
     {
@@ -17,8 +17,6 @@ namespace ExamHari05
             {
                 Console.Write("Masukan Nilai n : ");
                 int n = int.Parse(Console.ReadLine());
-                //Console.Write("Masukan Nilai n2 : ");
-                //int n2 = int.Parse(Console.ReadLine());
 
                 Console.Write("\nMasukan No Soal yang di pilih : ");
                 int soal = int.Parse(Console.ReadLine());
@@ -34,43 +32,10 @@ namespace ExamHari05
                         break;
 
                     case 3:
-                        Soal03 s3 = new Soal03(n);
-                        break;
+                        Console.Write("Masukan Jumlah Bangun : ");
+                        int bgn = int.Parse(Console.ReadLine());
 
-                    case 4:
-                        Soal04 s4 = new Soal04(n);
-                        break;
-
-                    case 5:
-                        Soal05 s5 = new Soal05(n);
-                        break;
-
-                    case 6:
-                        Soal06 s6 = new Soal06(n);
-                        break;
-
-                    case 7:
-                        Soal07 s7 = new Soal07(n);
-                        break;
-
-                    case 8:
-                        Soal08 s8 = new Soal08(n);
-                        break;
-
-                    case 9:
-                        Soal09 s9 = new Soal09(n);
-                        break;
-
-                    case 10:
-                        Soal10 s10 = new Soal10(n);
-                        break;
-
-                    case 11:
-                        SoalPR1 s11 = new SoalPR1(n);
-                        break;
-
-                    case 12:
-                        SoalPR2 s12 = new SoalPR2(n);
+                        Soal03 s3 = new Soal03(n, bgn);
                         break;
 
                     default:

@@ -66,7 +66,6 @@ namespace ExamHari04
                         bgn = int.Parse(Console.ReadLine());
                         Soal10 s10 = new Soal10(n, bgn);
                         break;
-                        break;
 
                     default:
                         Console.Write("Nomer Soal Tidak ditemukan");
